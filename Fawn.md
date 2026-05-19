@@ -57,6 +57,12 @@ cat <filename>
 ```
 Inside the file, I found the flag, which completed the challenge:
 
+📌 What I Learned
+How FTP services work and how to interact with them
+How to test anonymous FTP login
+Basic file enumeration on remote services
+Importance of scanning all open ports during enumeration
+
 
 
 
