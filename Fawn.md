@@ -1,24 +1,18 @@
-# HTB Machine: Fawn
+# 🐾 Hack The Box - Fawn Writeup
 
-## 🎯 Objective
-The goal of this machine is to practice basic FTP enumeration and access files from an exposed service.
+## 📌 Overview
+**Fawn** is a beginner-friendly Hack The Box machine focused on basic network service enumeration. The main objective is to identify an exposed service, gain access, and retrieve the flag.
 
----
-
-## 🛠 Tools Used
-- Nmap
-- FTP client
+- **Difficulty:** Very Easy  
+- **Category:** Enumeration / FTP  
+- **Goal:** Find and retrieve the flag from the target system  
 
 ---
 
 ## 🔍 Enumeration
 
-I started by scanning the target using Nmap to identify open ports and services:
+### Step 1: Nmap Scan
+I started by scanning the target to identify open ports and services:
 
-```bash id="fawn2"
-nmap -sV <target-ip>
-The scan revealed that FTP (port 21) was open.
-
-🚪 Accessing FTP Service
-
-I connected using:
+```bash
+nmap -p- -sV <target-ip>
