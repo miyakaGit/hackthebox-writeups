@@ -1,4 +1,4 @@
-# 🐾 Hack The Box - Fawn Writeup
+# 🐾 HTB Machine: Fawn 
 
 ## Overview
 **Fawn** is a beginner-friendly Hack The Box machine focused on basic network service enumeration. The main objective is to identify an exposed service, gain access, and retrieve the flag.
