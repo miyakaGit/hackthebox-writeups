@@ -25,11 +25,11 @@ nmap -sV <target-ip>
 ##  Gaining Access
 
 I connected using Telnet:
-
-After connecting, I successfully accessed the system.
 ```bash
 telnet <target-ip>
 ```
+After connecting, I successfully accessed the system.
+
 ---
 
 ## What I Learned
