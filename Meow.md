@@ -1,43 +1,34 @@
 # HTB Machine: Meow
 
-##  Objective
-The goal of this machine is to practice basic network enumeration and gain access to an exposed service.
+## 🎯 Objective
+The goal of this machine is to perform basic enumeration and gain access using exposed services.
 
 ---
 
-## Tools Used
+## 🛠 Tools Used
 - Nmap
 - Netcat
 - Telnet
 
 ---
 
-## Enumeration
+## 🔍 Enumeration
 
-I started by scanning the target machine using Nmap to identify open ports and services: 
+I started by scanning the target using Nmap:
 
-
-The scan results showed that **port 23 (Telnet)** was open.
-
----
-
-## Gaining Access
-
-Since Telnet was available, I connected to the service:
-
-
-
-After connecting, I was able to access the system successfully.
+The scan showed that **Telnet (port 23)** was open.
 
 ---
 
-##  Post-Access / Result
-After gaining access, I verified system access and explored the environment as part of the lab exercise.
+## 🚪 Gaining Access
+
+I connected using Telnet:
+
+After connecting, I successfully accessed the system.
 
 ---
 
-##  What I Learned
-- How to perform basic port scanning using Nmap
-- Identification of open services on a target system
-- Basic understanding of Telnet and remote service access
-- Importance of enumeration before exploitation
+## 📌 What I Learned
+- How to scan open ports using Nmap
+- How Telnet service works
+- Importance of service enumeration in penetration testing
