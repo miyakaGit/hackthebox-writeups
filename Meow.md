@@ -17,7 +17,9 @@ The goal of this machine is to perform basic enumeration and gain access using e
 I started by scanning the target using Nmap:
 
 The scan showed that **Telnet (port 23)** was open.
-
+```bash
+nmap -sV <target-ip>
+```
 ---
 
 ##  Gaining Access
@@ -25,7 +27,9 @@ The scan showed that **Telnet (port 23)** was open.
 I connected using Telnet:
 
 After connecting, I successfully accessed the system.
-
+```bash
+telnet <target-ip>
+```
 ---
 
 ## What I Learned
