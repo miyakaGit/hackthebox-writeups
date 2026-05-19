@@ -1,6 +1,6 @@
 # 🐾 Hack The Box - Fawn Writeup
 
-## 📌 Overview
+## Overview
 **Fawn** is a beginner-friendly Hack The Box machine focused on basic network service enumeration. The main objective is to identify an exposed service, gain access, and retrieve the flag.
 
 - **Difficulty:** Very Easy  
@@ -9,7 +9,7 @@
 
 ---
 
-## 🔍 Enumeration
+## Enumeration
 
 ### Step 1: Nmap Scan
 I started by scanning the target to identify open ports and services:
@@ -19,7 +19,7 @@ nmap -p- -sV <target-ip>
 ```
 ---
 
-## 📡 FTP Access
+##  FTP Access
 
 ### Step 2: Connect to FTP
 I connected to the FTP service using:
@@ -29,7 +29,7 @@ ftp <target-ip>
 ```
 ---
 
-## 📂 Step 3: File Enumeration
+##  Step 3: File Enumeration
 
 After successfully logging into the FTP server, I listed the available files in the directory:
 
@@ -39,7 +39,7 @@ ls
 
 ---
 
-## ⬇️ Step 4: File Download
+## Step 4: File Download
 
 After identifying the file in the FTP directory, I downloaded it to my local machine using the `get` command:
 
@@ -48,7 +48,7 @@ get <filename>
 ```
 ---
 
-## 📖 Step 5: Read the File (Get the Flag)
+## Step 5: Read the File (Get the Flag)
 
 After downloading the file, I opened it locally to view its contents:
 
