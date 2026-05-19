@@ -16,7 +16,6 @@ The goal of this machine is to practice basic network enumeration and gain acces
 
 I started by scanning the target machine using Nmap to identify open ports and services: 
 
-nmap -sV <target-ip>
 
 The scan results showed that **port 23 (Telnet)** was open.
 
@@ -26,7 +25,6 @@ The scan results showed that **port 23 (Telnet)** was open.
 
 Since Telnet was available, I connected to the service:
 
-telnet <target-ip>
 
 
 After connecting, I was able to access the system successfully.
