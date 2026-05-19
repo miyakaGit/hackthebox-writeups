@@ -5,7 +5,7 @@ The goal of this machine is to perform basic enumeration and gain access using e
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Nmap
 - Netcat
 - Telnet
